@@ -1,5 +1,5 @@
 Grid System:
-    .row -- !!!!  Takes the whole space of one row  !!!!
+    .row -- ***** Takes the whole space of one row  *****
             make columns in a row and no space left and right to the screen,
             otherwise, even inside the .container-fluid, there will
             be spaces beside columns
@@ -43,8 +43,7 @@ Button:
     .btn-group-vertical -- make the button group vertical
     .btn-group-justified -- justified to the parents
 
-    .dropdown-toggle -- toggle dropdown <ul> list
-                        !!!  Make button property as data-toggle="dropdown"  !!!
+    .dropdown-toggle -- toggle dropdown <ul> list, make button property as data-toggle="dropdown"
     .dropdown-menu -- make ul work with dropdown trigger button
     .divider -- add to <li>'s class, make a line between li in the drop down menu
     .dropdown-header -- make <li> as a header
