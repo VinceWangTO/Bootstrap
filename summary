@@ -1,0 +1,53 @@
+Grid System:
+    .row -- !!!!  Takes the whole space of one row  !!!!
+            make columns in a row and no space left and right to the screen,
+            otherwise, even inside the .container-fluid, there will
+            be spaces beside columns
+
+BackGround:
+    jumbotron -- large screen
+
+Container:
+    .container -- has space on the left and right
+    .container-fluid -- has no space, full screen
+
+Text:
+    .text-right
+    .text-center
+    .text-uppercase
+    .text-lowercase
+
+Table:
+    .table -- full line table
+    .table-striped -- change rows to grey and white
+    .table-condensed -- remove padding and margin
+    .table-hover -- add hover effects
+    .table-bordered -- add border to the table
+
+Image:
+    .center-block -- make the image center
+    .thumbnail -- add frame to the image
+    .img-circle -- make the image circle
+    .img-responsive -- make the image responsive
+    .img-thumbnail -- works as .thumbnail + .img-responsive
+
+Button:
+    .btn -- make as a bootstrap button
+    .btn-default -- add hover to .btn
+    .btn-primary -- add color to button
+    .btn-link -- make button look like a link
+    .btn-lg/md/sm/xs -- change the button size
+    .btn-block -- full screen width button
+    .disabled -- make disabled
+    .btn-group -- make buttons as a group with padding and margin removed
+    .btn-group-vertical -- make the button group vertical
+    .btn-group-justified -- justified to the parents
+
+    .dropdown-toggle -- toggle dropdown <ul> list
+                        !!!  Make button property as data-toggle="dropdown"  !!!
+    .dropdown-menu -- make ul work with dropdown trigger button
+    .divider -- add to <li>'s class, make a line between li in the drop down menu
+    .dropdown-header -- make <li> as a header
+
+    .dropdown-menu-right -- make the dropdown <ul> appear from right of the screen
+    .dropup -- make the <ul> appear on the top of the trigger button not bottom
