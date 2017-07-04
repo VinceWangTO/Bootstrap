@@ -1,3 +1,13 @@
+Bootstrap Glyphicons:
+    http://glyphicons.bootstrapcheatsheets.com/
+    .glyphicon .glyphicon-user  two class
+
+
+Alert:   -- Look at jumbotron_badge.html
+    .badge -- add badge to text
+    .label label-info -- add a button label to text, but can't click
+
+
 Grid System:
     .row -- ***** Takes the whole space of one row  *****
             make columns in a row and no space left and right to the screen,
@@ -5,12 +15,36 @@ Grid System:
             be spaces beside columns
 
 BackGround:
-    jumbotron -- large screen
+    .jumbotron -- large screen #eee background color
+    .page-header -- add a <hr> line below the content
+    .well well-sm/well-lg -- looks like jumbotron
 
 Container:
     .container -- has space on the left and right
     .container-fluid -- has no space, full screen
 
+Modals:
+    .modal -- need id attribute, default as collapse which is hidden
+              Its trigger has data-toggle="modal" and data-target="#id" attribute
+    .modal-dialog -- makes .model-content content as a small dialog form and centered
+    .modal-content -- makes the content inside as a form dialog,
+                      if parent doesn't has .modal-dialog, content will be 100% width of screen
+    .modal-header -- header part and add <hr> blow the heading
+    .modal-body -- body part
+    .modal-footer -- footer part and add <hr> above the footer and makes content right align
+    <span class="close" data-dismiss="modal">&times;</span> Add an X to close the modal
+
+
+Panel:
+    .panel panel-default -- change panel-heading background color, also add border to panel
+    .panel-heading -- header part
+    .panel-body -- body part
+    .panel-footer -- footer part
+
+Collapsibles:
+    .collapse -- hide the context and has id attribute,
+                 show by data-target="#id" trigger, the trigger has data-toggle="collapse"
+    .in -- show the collapse content as default, click its trigger will hide the content
 Text:
     .text-right
     .text-center
